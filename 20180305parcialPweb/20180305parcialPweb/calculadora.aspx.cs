@@ -18,14 +18,16 @@ namespace _20180305parcialPweb
 
         protected void Button1_Click(object sender, EventArgs e)
         {
-            string numero1 = num1.Text;
-            string numero2 = num2.Text;
-            TBresultado.Text = numero1 + numero2;
+            string numero1 = txtnum1.Text;
+            string numero2 = txnum2.Text;
+            txtresultado.Text = "" + (Int32.Parse(numero1) + Int32.Parse(numero2));
         }
 
         protected void Button2_Click(object sender, EventArgs e)
         {
-            
+            string numero1 = txtnum1.Text;
+            string numero2 = txnum2.Text;
+            txtresultado.Text = "" + (Int32.Parse(numero1) - Int32.Parse(numero2));
         }
 
         protected void num1_TextChanged(object sender, EventArgs e)
@@ -40,12 +42,23 @@ namespace _20180305parcialPweb
 
         protected void BtnMult_Click(object sender, EventArgs e)
         {
-            
+            string numero1 = txtnum1.Text;
+            string numero2 = txnum2.Text;
+            txtresultado.Text = "" + (Int32.Parse(numero1) * Int32.Parse(numero2));
         }
 
         protected void BtnDiv_Click(object sender, EventArgs e)
         {
-            
+            string numero1 = txtnum1.Text;
+            string numero2 = txnum2.Text;
+            if ((Int32.Parse(numero2) <= 0))
+            {
+                txtresultado.Text = "El segundo numero debe ser mayor a cero";
+            }
+             else
+            { 
+                txtresultado.Text = "" + (Int32.Parse(numero1) / Int32.Parse(numero2));
+            }
         }
     }
 }

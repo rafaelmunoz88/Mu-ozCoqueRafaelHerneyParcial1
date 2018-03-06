@@ -22,22 +22,22 @@ namespace _20180305parcialPweb {
         protected global::System.Web.UI.HtmlControls.HtmlForm form1;
         
         /// <summary>
-        /// Control num1.
+        /// Control txtnum1.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox num1;
+        protected global::System.Web.UI.WebControls.TextBox txtnum1;
         
         /// <summary>
-        /// Control num2.
+        /// Control txnum2.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox num2;
+        protected global::System.Web.UI.WebControls.TextBox txnum2;
         
         /// <summary>
         /// Control BtnSuma.
@@ -76,12 +76,12 @@ namespace _20180305parcialPweb {
         protected global::System.Web.UI.WebControls.Button BtnDiv;
         
         /// <summary>
-        /// Control TBresultado.
+        /// Control txtresultado.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox TBresultado;
+        protected global::System.Web.UI.WebControls.TextBox txtresultado;
     }
 }

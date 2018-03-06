@@ -9,10 +9,10 @@
 </head>
 <body>
     <form id="form1" runat="server">
-        <div id="calculadora" dir="auto">
+        <div id="lblCalculadora" dir="auto">
             CALCULADORA</div>
-        PRIMER NUMERO<asp:TextBox ID="num1" runat="server" OnTextChanged="num1_TextChanged"></asp:TextBox>
-        SEGUNDO NUMERO<asp:TextBox ID="num2" runat="server" OnTextChanged="num2_TextChanged"></asp:TextBox>
+        PRIMER NUMERO<asp:TextBox ID="txtnum1" runat="server" OnTextChanged="num1_TextChanged"></asp:TextBox>
+        SEGUNDO NUMERO<asp:TextBox ID="txnum2" runat="server" OnTextChanged="num2_TextChanged"></asp:TextBox>
         <p id="operDeseada">
             OPERACION DESEADA</p>
         <p>
@@ -22,7 +22,7 @@
             <asp:Button ID="BtnDiv" runat="server" Text="División" OnClick="BtnDiv_Click" />
         </p>
         RESULTADO<br />
-        <asp:TextBox ID="TBresultado" runat="server"></asp:TextBox>
+        <asp:TextBox ID="txtresultado" runat="server"></asp:TextBox>
     </form>
 </body>
 </html>
